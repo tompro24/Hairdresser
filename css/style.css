@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav {
+    height: 50px;
+    background-color: #98ba98;
+    text-align: center;
+    line-height: 50px;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-item a {
+    color: #fff;
+    padding: 0 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: color 0.4s;
+}
+
+.nav-item a:hover {
+    cursor: pointer;
+    color: rosybrown;
+}
+
+.header-img {
+    position: relative;
+    height: 300px;
+    background-image: url('../img/bgc.jpg');
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 5;
+}
+
+.header-text h1 {
+    font-size: 45px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(167, 217, 203, 0.4);
+}
+
+footer {
+    height: 80px;
+    line-height: 80px;
+    background-color: #98ba98;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.icon-box {
+    margin-left: 20px;
+}
+
+.icon-box a {
+    color: white;
+    margin: 0 5px;
+    font-size: 30px;
+    transition: color 0.4s;
+}
+
+.icon-box a:hover {
+    color: rosybrown;
+    cursor: pointer;
+}
+
+main {
+    width: 1200px;
+    margin: 50px auto;
+}
+
+main h2 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-us-box {
+    margin: 40px 0;
+    position: relative;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.top {
+    background-image: url('../img/fot1.jpg');
+}
+
+.middle {
+    background-image: url('../img/fot2.jpg');
+}
+
+.bottom {
+    background-image: url('../img/fot3.jpg');
+}
+
+.about-us-text {
+    position: absolute;
+    bottom: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    color: white;
+}
+
+.about-us-bg {
+    position: absolute;
+    bottom: 0;
+    height: 45%;
+    width: 100%;
+    background-color: rgba(167, 217, 203, 0.4);
+    overflow: hidden;
+}
+
+.about-us-text h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+/*usługi*/
+
+.services-box {
+    margin: 40px 0;
+    position: relative;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.services-box-text {
+    position: absolute;
+    bottom: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    color: white;
+}
+
+.services-box-bg {
+    position: absolute;
+    bottom: 0;
+    height: 45%;
+    width: 100%;
+    background-color: rgba(167, 217, 203, 0.4);
+    overflow: hidden;
+}
+
+.first {
+    background-image: url(../img/cut.jpg);
+}
+
+.second {
+    background-image: url(../img/create.jpg);
+}
+
+.third {
+    background-image: url(../img/color.jpg);
+}
+
+.fourth {
+    background-image: url(../img/fot3.jpg);
+}
+
+.fivth {
+    background-image: url(../img/portret.jpg);
+}
+
+
+/*cennik*/
+
+.price-table {
+    margin: 0 auto;
+}
+
+.price-table td {
+    padding: 10px 20px;
+    border: 3px dotted #98ba98;
+    font-weight: bold;
+    background-color: hsl(120, 29%, 97%);
+}
+
+.price-table th {
+    color: #98ba98;
+    font-size: 20px;
+}
+
+
+/*kontakt*/
+
+.contact-info {
+    text-align: center;
+    font-size: 25px;
+    transition: 0.5s;
+    color: black;
+}
+
+.contact-info .fas {
+    margin-right: 10px;
+}
+
+.contact-info :hover {
+    color: #98ba98;
+    cursor: pointer;
+}
+
+.contact-info i:hover {
+    width: 30px;
+    height: 28px;
+}
